@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #eeeef3;
+}
+
+.logo {
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.content {
+  position: relative;
+  width: 50%;
+  left:25%;
+}
+
+.searching {
+  margin-top:1%;
+
+  width: 98%;
+  padding: 1%;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 50px;
+  background: white;
+}
+
+.quiz {
+  padding: 1%;
+  width: 98%;
+  height: 300px;
+  border-radius:10px;
+  margin-top:10px;
+  background: white;
+}
+
+.quiz:last-child {
+    margin-bottom:10px;
+}
+
+.sidebar {
+  position: fixed;
+  top:1%;
+  right: 8%;
+  min-width: 15%;
+}
+
+.sbblockAlone {
+  padding: 1%;
+  padding-top:10px;
+  padding-bottom:10px;
+  width: 98%;
+  background: white;
+  border-radius: 50px;
+  text-align:center;
+}
+
+.sbblock {
+  padding: 2%;
+  width: 98%;
+  background: white;
+}
+
+

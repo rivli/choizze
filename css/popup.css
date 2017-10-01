@@ -1,0 +1,169 @@
+.popupName {
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.popupInnerBlock {
+  background: white;
+  padding: 10px;
+}
+
+.textareaInput {
+  width: 98%;
+  height: 300px;
+  resize: vertical;
+}
+
+/*-------popup image----------*/
+
+.popupimage {
+    cursor: pointer;
+}
+
+.popupBlock {
+    z-index: 2;
+    position: fixed;
+    top: 8%;
+    margin: 0 20%;
+    width: 60%;
+    overflow: auto;
+    max-height: 92%;
+    z-index: 51;
+}
+
+.popup_bg {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.popup_imageBlock {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    height: 50%;
+    background: #46575a;
+    z-index: 51;
+}
+
+.popup_image {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    z-index: 51;
+}
+
+.popup_desc {
+    width: 98%;
+    padding: 1%;
+    background: #f7f6f6;
+}
+
+
+/*-----------------end popup_img---------------*/
+
+
+/*-----------------popupComments---------------*/
+
+.popupComments {
+    width: 100%;
+    background: #f7f6f6;
+}
+
+.popupComments .comments1 {
+    text-decoration: none;
+    color: white;
+    background: #46575a;
+    width: 98%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.popupComments .comments2 {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 98%;
+    padding: 1%;
+}
+
+.daughterComment1 {
+    color: white;
+    background: rgba(71, 88, 91, 0.72);
+    float: right;
+    text-align: left;
+    display: inline-block;
+    padding: 1%;
+    width: 88%;
+    border-bottom: 1px solid #111111;
+}
+
+.daughterComment2 {
+    float: right;
+    text-align: left;
+    display: inline-block;
+    color: black;
+    padding: 1%;
+    width: 88%;
+    border-bottom: 1px solid #111111;
+}
+
+.popupComments a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.popupComments a:hover {
+    color: #247e91;
+}
+
+.AnsweringButton {
+    background: #C7D0CC;
+    cursor: pointer;
+    color: #414A4C;
+    border: 0;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+.popupComments .text {
+    width: 100%;
+}
+
+.commentForm {
+    width: :98%;
+    padding: 1%;
+}
+/*-----------------end popupComments---------------*/
+
+
+
+/*-----------------popupShare---------------*/
+
+.popupMessage {
+  background: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.popupLink {
+  width: 90%;
+  padding: 1%;
+  background: #e7e7e7;
+  border: 1px solid #c6c6c6;
+}
+
+.popupHTMLlink {
+  width: 90%;
+  padding: 1%;
+  height: auto;
+  resize: none;
+  background: #e7e7e7;
+  border: 1px solid #c6c6c6;
+}
+/*-----------------end of popupShare---------------*/

@@ -1,0 +1,235 @@
+.quizSbName {
+  background: #ffffff;
+  font-weight:bold;
+  font-size:25px;
+  width: 98%;
+  padding: 1%;
+  text-align: center;
+
+}
+
+.topQuizSbBlock {
+  border:1px solid rgb(181, 181, 181);
+  border-bottom: 0;
+  border-top: 0;
+    max-width: 100%;
+}
+
+
+.quizSB {
+  background: #ffffff;
+  /*border:1px solid rgb(181, 181, 181);*/
+  border-top: 0;
+  max-width: 100%;
+}
+
+.Comments {
+  margin-top: 10px;
+  background: #ffffff;
+  border:1px solid rgb(181, 181, 181);
+  max-width: 100%;
+}
+
+.authorBlock {
+  max-width: 100%;
+  border:1px solid rgb(181, 181, 181);
+  background: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.authorBlockLeft {
+  text-align: center;
+  width: 26%;
+  padding: 3%;
+}
+
+.authorAva {
+  display: inline-block;
+  width: 94%;
+  border-radius: 50%;
+}
+
+.authorBlockRight{
+  width: 70%;
+  vertical-align: top;
+  padding: 3%;
+}
+
+.authorName {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.authorName:hover {
+  color:rgb(51, 50, 48);
+}
+
+.addTime {
+    display: block;
+    font-size: 10px;
+    color:rgb(148, 148, 148);
+}
+
+.authorQuote {
+    display: block;
+}
+
+.AnswerReceiver {
+  text-decoration: none;
+  color:black;
+}
+
+.AnswerReceiver:hover {
+  color:rgb(51, 50, 48);
+}
+
+
+.editorLinks {
+  position: fixed;
+  top:7%;
+  left: 90%;
+  z-index: 10000;
+}
+
+
+.quizEditLink {
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color:rgb(104, 105, 104);
+}
+
+
+
+.quizDeleteLink {
+display: block;
+  margin: 10px;
+  text-decoration: none;
+  color:white;
+}
+
+.quizDeleteLink:hover {
+  color: #222;
+}
+
+
+.voice {
+  margin-top: 1%;
+  padding: 1%;
+  width: 98%;
+  background: #b1bee6;
+  position: relative;
+cursor: pointer;
+z-index: 0;
+}
+
+.voices {
+  float: right;
+  z-index: 50;
+  position: relative;
+}
+
+.optionName {
+  position: relative;
+  z-index: 50;
+}
+
+.voicesBlockFiller {
+  background: #667bbb;
+  position: absolute;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+/*--------------------------quiz description-------------------*/
+
+.quizDesc {
+  width: 94%;
+  padding: 3%;
+}
+
+
+
+.quizDate {
+float: right;
+}
+
+
+/*-------------------------end quiz desc----------------------*/
+
+
+/*------------------------commentsQuiz----------------------*/
+
+
+.addCommentQuiz {
+  max-width: 94%;
+  padding: 3%;
+  border:1px solid rgb(181, 181, 181);
+  background: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.commentsQuiz {
+  position: relative;
+  max-width: 94%;
+  padding: 3%;
+  border:1px solid rgb(181, 181, 181);
+  background: #ffffff;
+  margin-top: 10px;
+}
+
+.commentsQuiz:last-child {
+  margin-bottom: 10px;
+}
+
+.commentTextQuiz {
+  padding: 10px;
+}
+
+.daughterCommentsQuiz {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.commentAuthorBlockLeft {
+  text-align: center;
+  width: 10%;
+}
+
+.commentAuthorAva {
+  display: inline-block;
+  width: 94%;
+  border-radius: 50%;
+}
+
+.commentAuthorBlockRight{
+  position: relative;
+  width: 70%;
+  vertical-align: top;
+  padding: 3%;
+}
+
+.AnsweringButtonQuiz {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  background: #C7D0CC;
+  cursor: pointer;
+  color: #414A4C;
+  border: 0;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+/*---------------------------end comments-------------------*/

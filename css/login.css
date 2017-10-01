@@ -1,0 +1,108 @@
+
+.messageshow {
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  widht:100;
+  padding:10px;
+  color:white;
+  border-radius: 5px;
+}
+
+.logBlock {
+  display: none;
+  width: 30%;
+  margin: 0 35%;
+  position:fixed;
+  top:20%;
+  z-index:101;
+  padding:10px;
+  background: rgb(205 , 207, 202);
+  text-align:center;
+}
+
+.logBlockClose {
+  display: none;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    z-index:2;
+    background: rgba(134, 134, 134, 0.64);
+}
+
+.loginBlock {
+  display: none;
+}
+
+.logBlock select {
+    width:100%;
+    border:0;
+}
+.logBlock button {
+  color:white;
+  text-align: center;
+  padding: 10px 0;
+  width: calc(97.9%/2);
+  background-color: rgb(166, 151, 252);
+  border:0 solid black;
+}
+
+.loginBlock .loginButton {
+  background: #ffffff;
+  color: rgb(166, 151, 252);
+}
+
+.loginBlock .registrationButton {
+  cursor: pointer;
+}
+
+ #first {
+  margin-top: 5px;
+}
+
+
+.logBlock input {
+  width: 96%;
+  padding: 10px 2%;
+  border: 0;
+  font-family:Times New Roman, serif;
+}
+
+.logBlock input[type="checkbox"] {
+  width: auto;
+}
+
+
+.logBlock input[type='submit'] {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+  border:0;
+  border-top: 3px solid #949494;
+}
+
+
+
+
+ .logBlock input:required:valid { /* when a field is considered valid by the browser */
+    background: #fff url(resources/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+.registrationBlock {
+    display:none;
+
+}
+
+.registrationBlock .loginButton {
+  cursor: pointer;
+}
+
+.registrationBlock .registrationButton {
+  background: #ffffff;
+  color: rgb(166, 151, 252);
+}

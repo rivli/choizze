@@ -1,0 +1,12 @@
+.main-input {
+  padding: 1%;
+  width: 98%;
+  border: 1px solid #c6c6c6;
+  background: #e7e7e7;
+  color: black;
+  min-height: 20px;
+}
+
+.main-input-placeholder {
+  color: #c6c6c6;
+}

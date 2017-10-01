@@ -1,0 +1,24 @@
+.userAvatar {
+    cursor: pointer;
+    min-height: 50%;
+    width: 100%;
+    background: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center top;
+}
+
+.userInfoBlock {
+  width: 100%;
+  background: white;
+}
+
+.userData {
+  padding: 10px;
+}
+
+.profileHR {
+  background: black;
+  height: 1px;
+  border: 0px solid black;
+}
